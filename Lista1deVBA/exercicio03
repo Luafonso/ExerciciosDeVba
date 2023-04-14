@@ -1,0 +1,14 @@
+Sub exercicio03()
+
+dim escolha as string 
+
+escolha = inputBox("Digite:  [M/F]")
+
+select case escolha 
+	case "M" : msgbox("Masculino")
+	case "F" : msgbox("Feminino")
+	
+case else 
+	msgbox("Inserir sexo válido")
+end select 
+End Sub

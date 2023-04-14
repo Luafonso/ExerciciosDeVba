@@ -1,0 +1,23 @@
+
+Sub exercicio07()
+
+dim n1 as integer 
+dim n2 as integer 
+dim n3 as integer 
+dim maior as integer 
+
+n1 = inputbox("Digite o numero: ")
+n2 = inputbox("Digite o numero: ")
+n3 = inputbox("Digite o numero: ")
+
+maior = n1
+menor = n1 
+
+If (n2 > maior) Then maior = n2
+If (n3 > maior) Then maior = n3
+If (n2 < menor) Then menor = n2
+If (n3 < menor) Then menor = n3
+
+
+msgbox("O maior numero eh: " &maior & " e o menor número eh: " & menor)
+End Sub

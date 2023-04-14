@@ -1,0 +1,13 @@
+sub exercicio09()
+
+dim n1 as integer 
+dim n2 as integer 
+dim n3 as integer 
+
+n1 = inputbox("Digite o valor do numero: ")
+n2 = inputbox("Digite o valor do numero: ")
+n3 = inputbox("Digite o valor do numero: ")
+
+
+
+end Sub 

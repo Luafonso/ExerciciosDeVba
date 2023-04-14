@@ -1,0 +1,15 @@
+Sub exercicio02()
+
+dim n as integer 
+
+n = inputBox("Digite um numero: ")
+
+if n < 0 then 
+	msgBox("É negativo, pois eh: " & n)
+elseIf n > 0 then
+	msgBox("É positivo, pois eh: " & n)
+else 
+	msgBox("É nulo, pois eh: " & n)
+endIf
+
+End Sub

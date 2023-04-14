@@ -1,0 +1,13 @@
+Sub exercicio04()
+
+dim letra as string 
+
+letra = inputbox("Digite uma letra: ")
+
+if letra = "A" or letra = "E" or letra = "I" or letra = "O" or letra = "U" or letra = "a" or letra = "e" or letra = "i" or letra = "o" or letra = "u" then
+	msgbox("Letra é vogal")
+else 
+	msgbox("Letra é consoante")
+endif
+
+end Sub

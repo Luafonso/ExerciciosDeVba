@@ -1,0 +1,16 @@
+Sub exercicio01()
+
+dim n1 as integer 
+dim n2 as integer 
+
+n1 = inputBox("Digite um numero: ")
+n2 = inputBox("Digite outro numero: ")
+
+if n1 > n2 then
+	msgBox( n1 & " é maior que " & n2)
+else 
+	msgBox( n2 & " é maior que " & n1)
+endIf	
+
+End Sub
+

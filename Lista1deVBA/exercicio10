@@ -1,0 +1,18 @@
+Sub exercicio10()
+
+dim escolha as string 
+dim mensagem as string 
+
+escolha = inputbox("Digite em que turno voce estuda: [m/v/n]")
+
+select case escolha 
+	case "m" : mensagem = "Bom dia!"
+	case "v" : mensagem = "Boa tarde!"
+	case "n" : mensagem = "Boa noite!"
+case else 
+	msgbox("Valor invalido!")
+end select 
+
+msgbox(mensagem)
+
+End sub

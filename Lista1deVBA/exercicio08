@@ -1,0 +1,20 @@
+sub exercicio08()
+
+dim produto1 as double 
+dim produto2 as double 
+dim produto3 as double
+dim precoBaixo as double 
+
+produto1 = inputBox("Digite o preço do produto: ")
+produto2 = inputBox("Digite o preço do produto: ")
+produto3 = inputBox("Digite o preço do produto: ")
+
+precoBaixo = produto1 
+
+if produto2 < precoBaixo then precoBaixo = produto2
+if produto3 < precoBaixo then precoBaixo = produto3
+
+msgBox("O produto que você deve comprar eh: " &precoBaixo)
+
+
+end sub
